@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+ }
+ 
+ .input-label {
+  display: block;
+  margin-bottom: 10px;
+ }
+ 
+ .input-field {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+ }
+ 
+ .submit-button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+ 
+ .submit-button:hover {
+  background-color: #45a049;
+ }
